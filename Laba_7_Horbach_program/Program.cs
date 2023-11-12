@@ -477,9 +477,8 @@ public class Program
         }
         return accounts;
     }
-
-   public static List<Person> ReadFromFileCSV(string path)
-   {
+    public static List<Person> ReadFromFileCSV(string path)
+    {
         List<Person> accounts = new List<Person>();
 
         try
@@ -507,5 +506,7 @@ public class Program
             Console.WriteLine(ex.Message);
         }
         return accounts;
-   }
+    }
+
+
 }
