@@ -429,7 +429,6 @@ public class Program
         }
     }
 
-
     public static void SaveToFileJson(List<Person> accounts, string path)
     {
         try
